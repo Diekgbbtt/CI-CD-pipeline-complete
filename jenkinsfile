@@ -3,7 +3,6 @@ pipeline{
         label "jenkins-agent"
     }
     tools {
-        jdk 'java21'
         maven 'Maven3'
     }
     environment {
